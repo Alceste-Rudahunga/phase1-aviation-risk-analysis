@@ -1,0 +1,11 @@
+# VS Code / Python / Jupyter noise
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+*.DS_Store
+
+# Large or temp
+*.nbconvert.ipynb
