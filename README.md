@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Phase 1 — Aviation Risk Analysis ✈️
 
 ##  Project Overview
@@ -60,3 +61,6 @@ This analysis uses publicly available aviation accident records provided through
 ---
 
 ##  Project Structure
+=======
+# phase1-aviation-risk-analysis
+>>>>>>> d94caa9b9d3e23124756dfec2ee9915964552f77

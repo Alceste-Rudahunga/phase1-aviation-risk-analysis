@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VS Code / Python / Jupyter noise
 .vscode/
 __pycache__/
@@ -9,3 +10,23 @@ env/
 
 # Large or temp
 *.nbconvert.ipynb
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Large data
+data/raw/
+>>>>>>> d94caa9b9d3e23124756dfec2ee9915964552f77
