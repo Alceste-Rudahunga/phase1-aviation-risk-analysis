@@ -1,66 +1,104 @@
-<<<<<<< HEAD
-# Phase 1 — Aviation Risk Analysis ✈️
+#  Phase 1 — Aircraft Risk Analysis for Safe Fleet Decisions
 
-##  Project Overview
-Air travel is widely considered one of the safest modes of transport, yet aviation incidents still occur globally.  
-This project examines historical aviation accident data to uncover risk patterns and important safety insights, such as:
-
-- When aviation incidents occur most frequently
-- Aircraft types and environments associated with higher risk
-- Geographical hotspots for accidents
-- Accident severity outcomes and contributing factors
-
-The objective is to provide actionable insights that can guide aviation safety stakeholders in decision-making and risk reduction.
+This project applies data-driven analytics to identify safe and commercially viable aircraft models for a new aviation business. By examining decades of safety reports, the goal is to support smarter fleet acquisition decisions based on real-world incident history.
 
 ---
 
 ##  Business Relevance
-Aviation safety authorities, airline companies, aircraft manufacturers, and airport operators rely on data-driven evidence to:
 
-- Improve pilot and crew safety training programs
-- Enhance regulatory oversight and compliance
-- Detect mechanical and operational risks early
-- Reduce accident severity and prevent fatalities
-- Support safer air travel for the global community
+Aviation operators rely on safety analytics to:
+
+- Minimize financial losses from accidents
+- Improve compliance and regulatory approval
+- Reduce fatality risks and enhance public trust
+- Guide fleet investment and maintenance strategy
+
+Smarter aircraft selection = lower liability + higher commercial success.
 
 ---
 
 ##  Project Objectives
-1. Analyze aviation accident frequency and distribution over time  
-2. Identify aircraft configurations and flight phases with heightened risk  
-3. Examine environmental and operational contributing factors  
-4. Assess injury severity to support targeted safety improvements  
+
+1. Identify aircraft models with the lowest accident incidence
+2. Evaluate injury outcomes and aircraft damage severity
+3. Compare safety performance across multiple aircraft categories
+4. Recommend safe + cost-effective fleet and contract options
 
 ---
 
 ##  Dataset Description
-This analysis uses publicly available aviation accident records provided through Kaggle.
 
 | Feature | Description |
 |--------|-------------|
-| Event Date | Date of accident |
-| Location | Country / City of incident |
-| Aircraft Model & Make | Manufacturer details |
-| Weather Condition | Operating weather conditions |
-| Investigation Type | Accident vs. Incident |
-| Injury Severity | Fatal / Serious / Minor impacts |
-| Total Injuries | Number of passengers/crew impacted |
+| Event Date | When the aviation incident occurred |
+| Aircraft Make & Model | Manufacturer + configuration |
+| Investigation Type | Accident vs Incident |
+| Injury Severity | None, Minor, Serious, Fatal |
+| Total Injuries | # of people affected |
 
-> ✅ 120+ historical aviation records analyzed
+ 120+ cleaned aviation incident reports analyzed
 
 ---
 
-##  Tools & Technologies
+##  Data Preparation
+
+- Removed records with missing aircraft model information
+- Standardized categorical values for damage + severity
+- Focused on models with sufficient incident reporting
+- Used weighted impact (fatal > serious > minor) for safety ranking
+
+---
+
+##  Tableau Dashboard (Interactive)
+
+🔗 View Dashboard Here:  
+https://public.tableau.com/views/Project_AviationRiskAnalysisDashboard/AirSafetyDashboard
+
+### Visuals Included
+1) Damage Severity vs Injury Outcomes  
+2) Reported Incidents by Aircraft Make  
+3) Quantified Safety Ranking of Aircraft Models  
+
+---
+
+##  Key Insights
+
+1️ *High-Risk Models*  
+Cessna 152, Cessna 172, Piper PA-28-140  
+→ High incident frequency + higher severe outcomes  
+→ *Not ideal for new operators without insurance buffering*
+
+2️ *Safest Operational Option*  
+Cessna 206B  
+→ 92% of cases result in only *minor* damage  
+→ Low repair + insurance cost
+
+3️ *Commercially Strongest*  
+Boeing 737  
+→ *Near-perfect safety record in dataset*  
+→ Economically strong for passenger route deployment
+
+---
+
+##  Recommendations
+
+| Category | Recommendation |
+|---------|---------------|
+|  Immediate Purchase | Cessna 206B – low damage cost & proven safety |
+|  Passenger Fleet | Lease Boeing 737 where possible |
+|  Conditional Use | Cessna 152/172 only with risk-transfer contracts |
+
+---
+
+##  Tools Used
+
 | Category | Tools |
-|---------|------|
-| Programming & Analysis | Python, Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn, Tableau |
+|--------|------|
+| Data Analysis | Python, Pandas, NumPy |
+| Visualization | Tableau, Seaborn, Matplotlib |
 | Notebook | Jupyter |
-| Version Control | Git & GitHub |
+| Version Control | Git + GitHub |
 
 ---
 
 ##  Project Structure
-=======
-# phase1-aviation-risk-analysis
->>>>>>> d94caa9b9d3e23124756dfec2ee9915964552f77
