@@ -149,10 +149,11 @@ Align fleet decisions with regulatory and insurance risk frameworks to ensure su
 To complement this Python-based analysis, an interactive *Tableau Public dashboard* presents the key metrics visually.  
 The dashboard enables dynamic exploration of event types, injury severity, and damage levels across aircraft makes and models.
 
+Below is my Tableau link
+
 *Tableau Public Link:*  
 [Air Safety Dashboard — Igiraneza Rudahunga Alceste](https://public.tableau.com/app/profile/igiraneza.alceste/viz/Book1_17619452328360/AirSafetyDashboard?publish=yes)
 
-If a static preview is available, it can be found in the images directory:
+<img width="608" height="319" alt="image" src="https://github.com/user-attachments/assets/f2c266a3-618b-4b6b-8dc2-f117423651ed" />
 
-```text
-images/air_safety_dashboard.png
+
