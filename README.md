@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# Phase 1 — Aviation Risk Analysis ✈️
+
+# Phase 1 — Aviation Risk Analysis 
 
 ##  Project Overview
 Air travel is widely considered one of the safest modes of transport, yet aviation incidents still occur globally.  
@@ -46,7 +46,7 @@ This analysis uses publicly available aviation accident records provided through
 | Injury Severity | Fatal / Serious / Minor impacts |
 | Total Injuries | Number of passengers/crew impacted |
 
-> ✅ 120+ historical aviation records analyzed
+>  120+ historical aviation records analyzed
 
 ---
 
